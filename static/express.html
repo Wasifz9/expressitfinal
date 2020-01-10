@@ -1,0 +1,180 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>HTML, CSS and JavaScript demo</title>
+<link rel="stylesheet" href="express.css">
+</head>
+<body>
+<!-- Start your code here -->
+  <div id="navbar"class ="navbar">
+    <li style = "padding-right: 20px; height: 100%;">
+      <a href="#home" style = "marign: 0px;">Express It</a>
+    <a href="#home" style = "float: right">Services</a>
+    <a href="#news"style = "float: right">Who are we?</a>
+    <a href="#contact" style = "float: right;">Contac Us</a>
+      <button style = "height:100%; margin: 0; width: 20%; background-color: green; color: white; "> Spanish</button>
+     </li>
+
+  </div>
+    <div id="home" class = "home"> 
+      <div id="englishhome" class = "englishhome">
+       <div id="homeback" class = "homeback">
+           <p class = "webtitle"> Express It </p>
+       
+
+         <p class = "websubtitle" > Translation and interpretation powered by experience</p>
+         
+       
+    
+       </div>
+        <div class = "translateaction">
+          <div style = "width: 50%; display: flex; align-items: center; justify-content: center; flex-direction: column;">
+            <h2 style = "text-align: center;font-size: 55px; margin: 0px; line-width: 40px;"> Translate </h2>        
+            <div style = "width: 70%">
+              <p style = "text-align: center; margin: 0px;font-size: 35px;"> We take your text and
+                provide a polished,
+                affordable and accurate
+                translation.
+            </p>
+              </div>
+              <button> Click Here for Translation! </button>
+            
+     
+           </div>
+         <div class = "interpretationaction">
+          
+           <h2 style = "text-align: center; font-size: 55px; margin: 0px;"> Interpretation </h2>
+<div style = "width: 70%">
+           <p style = "text-align: center; margin: 0px;font-size: 40px;"> Real time translation to 
+                aid your 
+               verbal communication
+            </p>
+           </div>
+              <button> Click Here for Interpretation! </button>
+
+        </div>
+
+        </div>
+       
+        
+        </div>
+      <div id="spanishhome" class = "spanishhome"></div>
+   </div>
+  <div id="services" class = "services">
+    <div id="englishservices" class = "englishservices">
+      <h2 style = "font-size: 70px; float: left; color: black; text-decoration: underline; margin-left: 40px; position: absolute;">
+          Services
+      </h2>
+      <div class="translationinfo"> 
+        <div class="infotitle">
+              <h2 style = "font-size: 50px; color: black; text-decoration: underline;  font-weight: lighter;">
+                Translation
+
+              </h2>
+        </div>
+        <div class="infotext">
+          <div class="translationtext">
+            <ul>
+            <li class = "description">
+              Fill out the form and submit to Dropbox
+              and we will receive your text instantly
+              </li>
+              
+
+             <li>We will analyze your submission and
+              provide a free quote.
+              </li>
+
+              <li>Sit back while we get to work!</li>
+
+              <li>In a timely fashion, your translated
+                submission will be returned to you.</li>
+
+              </li>
+            </ul>
+
+          </div>
+        </div>
+      
+      </div>
+      <div class="interpretationinfo"> 
+   
+        <div class="infotext1">
+          
+
+        </div>
+        <div class="infotitle1" style = "background-color: orange;">
+
+        </div>
+      
+      </div>
+      
+      
+      
+      
+      
+      
+      
+      
+    </div>
+      <div id="spanishservices" class = "spanishservices"></div>  
+  </div>
+  <div id="who" class = "who">
+    <div id="englishwho" class = "englishwho">
+     
+
+    </div>
+      <div id="spanishwho" class = "spanishwho"></div> 
+  </div>
+  <div id="segue" class = "segue">
+    <div id="englishsegue" class = "englishsegue">
+      <p style = "font-size: 60px; font-weight: bold; color: white; font-decoration: shadow;">International Reach and Service Powered by Experience!</p>
+    </div>
+      <div id="spanishsegue" class = "spanishsegue"></div> 
+  </div>
+  <div id="contact" class = "contact">
+      <div id="englishcontact" class = "englishcontact">
+        <h1 style = "font-size: 60px; color: white;"> contact us!</h1>
+   
+  
+        <form action = "action_page.php">
+          <label for = "fname" style = "margin-top: 0px;"> first name </label>
+              <input type="text" id="fname" name="firstname" placeholder="Your name..">
+              <label for = "lname">  last name </label>
+              <input type="text" id="lname" name="firstname" placeholder="Your name..">
+              <label for = "type">  service </label>
+          <select id="type" name = "type">  
+              <option value = "choose" > please choose one </option>
+               <option value = "web development"> web development</option>
+               <option value = "app development"> app development</option>
+             <option value = "advertisement design"> advertisement design</option>
+               <option value = "business consultation"> business consultation</option>
+            <option value = "consultation/development"> consultation/development </option>
+               <option value = "logo design"> logo design </option>
+          </select>    
+          <div style = "margin: 10px 30%; ">
+          <label for = "date">  I need this done by:</label>
+      
+            <input type="date" id = "date" name="due date"/> <br/>
+            
+     
+       </div>
+          
+               <label for="subject"> additional info </label>
+         <textarea id="subject" name="subject" placeholder="if there's any extra information about your business or anything youd like us to know before our first conversation, feel free to include it here." style="height:150px"></textarea>
+          
+           <input type="submit" value="Submit">
+          
+         
+      
+        </form>
+    
+      </div>
+      <div id="spanishcontact" class = "spanishcontact"></div> 
+  </div>
+  
+
+
+<!-- End your code here -->
+</body>
+</html>

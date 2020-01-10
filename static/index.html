@@ -1,0 +1,550 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>Express It</title>
+<link rel="stylesheet" href="express1.css">
+<link href="https://fonts.googleapis.com/css?family=PT+Serif&display=swap" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css?family=Dancing+Script&display=swap" rel="stylesheet">
+
+</head>
+<body>
+<!-- Start your code here -->
+  <!--<div id="navbar"class ="navbar">
+    <li style = "padding-right: 20px;">
+      <a href="#home" style = "marign: 0px;">Express It</a>
+    <a href="#home" style = "float: right">Services</a>
+    <a href="#news"style = "float: right">Who are we?</a>
+    <a href="#contact" style = "float: right;">Contact Us</a>
+      <button style = "height:100%; margin: 0; width: 20%; background-color: green; color: white; "> Spanish</button>
+     </li>
+
+  </div> -->
+
+    <button id = "left-button" class = "languagebutton" style = "float:right; position: fixed; top:0; margin: 0px;" onclick = "window.location.href = '#englishhome';"> English </button>
+    <button id = "right-button" class = "languagebutton1" style = "position: fixed; right: 0; top:0; margin: 0px; border-radius: 20px 0 0 20px;" onclick = "window.location.href = '#spanishhome';"> Español </button>
+    <div id="home" class = "home"> 
+      <div id="englishhome" class = "englishhome">
+       <div id="homeback" class = "homeback">
+          <img src= "logo.png" style = "width:200px; height:200px;margin: 0px;">
+
+           <p class = "webtitle"> Express It </p>
+           <div style = "height: 3px; width: 100px; background-color: rgb(77,195,209);; margin: 0px auto; padding: 0px;"> </div>
+       
+
+         <p class = "websubtitle" > Spanish-English translation and interpretation powered by experience</p>
+         
+       
+    
+       </div>
+        <div class = "translateaction">
+          <div style = "width: 50%; display: flex; align-items: center; justify-content: center; flex-direction: column;">
+            <h2 style = "font-size: 40px; margin: 0px; line-width: 40px;"> TRANSLATE </h2>        
+            <div style = "width: 70%">
+              <p style = "text-align: center; margin: 0px;font-size: 25px;"> We take your text and
+                provide a polished,
+                affordable and accurate
+                translation.
+            </p>
+              </div>
+              <button class = "buttonaction" onclick = "window.location.href = '#contact';"> Click Here for Translation! </button>
+            
+     
+           </div>
+         <div class = "interpretationaction">
+          
+           <h2 style = "text-align: center; font-size: 40px; margin: 0px;"> INTERPRETATION </h2>
+<div style = "width: 70%">
+           <p style = "text-align: center; margin: 0px;font-size: 25px;"> Real time translation to 
+                aid your 
+               verbal communication
+            </p>
+           </div>
+              <button onclick = "window.location.href = '#contact';" class = "buttonaction"> Click Here for Interpretation! </button>
+
+        </div>
+
+        </div>
+       
+        
+        </div>
+      
+      <div id="spanishhome" class = "spanishhome">
+          <div id="homeback" class = "homeback">
+              <img src= "logo.png" style = "width:200px; height:200px;margin: 0px;">
+    
+               <p class = "webtitle"> Exprésalo </p>
+               <div style = "height: 3px; width: 100px; background-color: rgb(77,195,209); margin: 0px auto; padding: 0px;"> </div>
+           
+    
+             <p class = "websubtitle" > Español-Inglés traducciones e interpretaciones</p>
+             
+           
+        
+           </div>
+            <div class = "translateaction">
+              <div style = "width: 50%; display: flex; align-items: center; justify-content: center; flex-direction: column;">
+                <h2 style = "font-size: 40px; margin: 0px; line-width: 40px;"> TRADUCCIÓN	 </h2>        
+                <div style = "width: 70%">
+                  <p style = "text-align: center; margin: 0px;font-size: 25px;">                Al recibir su documento nosotros 			
+                      Le proveeremos con una traducción		
+                                   válida, precisa y con un costo razonable  
+                    
+                </p>
+                  </div>
+                  <button class = "buttonaction"> Comience su traducción! </button>
+                
+         
+               </div>
+             <div class = "interpretationaction">
+              
+               <h2 style = "text-align: center; font-size: 40px; margin: 0px;"> INTEPRETACIÓN </h2>
+    <div style = "width: 70%">
+               <p style = "text-align: center; margin: 0px;font-size: 25px;"> El servicio de interpretación 
+                  simultánea o continua es preciso y professional.
+                  
+                </p>
+               </div>
+                  <button class = "buttonaction"onclick = "window.location.href = '#contact';"> Comience su interpretación! </button>
+    
+            </div>
+    
+            </div>
+      </div>
+    </div>
+   </div>
+  <div id="services" class = "services">
+     <div id="englishservices" class = "englishservices">
+       
+       <div id="englishtranslationservice" class = "englishtranslationservice">    
+         <div class ="servicetitles"> 
+          <h2 style = "text-align: center; font-size: 60px; margin-bottom: 10px; margin-top: 35px;"> Translation </h2>
+          
+         </div>
+         <div style = "height: 3px; width: 100px; background-color: rgb(50, 163, 50); margin: 0px auto; padding: 0px;"> </div>
+         
+         <div class = "holder">
+         <div class="servicematerial">
+           <div class="materialbox">
+                <p style = "text-align: center; font-size: 40px; margin: 20px;">
+                      Step 1
+             </p>
+              <p style = "text-align: center; margin: 0px;font-size: 25px;"> By completing the form “request for services” below you will initiate your services with Express It and will be in contact with us.
+
+
+            </p>
+
+           </div>
+           <div class="materialbox">
+             <p style = "text-align: center; font-size: 40px; margin: 20px;">
+                      Step 2
+             </p>
+               <p style = "text-align: center; margin: 0px;font-size: 25px;"> We will review your request and contact you to get in possession of your document(s). 
+            </p>
+
+           </div>
+
+         
+
+            <div class="materialbox">
+                 <p style = "text-align: center; font-size: 40px; margin: 20px;">
+                      Step 3
+             </p>
+               <p style = "text-align: center; margin: 0px;font-size: 25px;"> Once we have reviewed and approved your document(s) for service, we will require 40% of the cost in order to commence translations.
+            </p>
+
+           </div>
+            <div class="materialbox">
+                 <p style = "text-align: center; font-size: 40px; margin: 20px;">
+                      Step 4
+             </p>
+               <p style = "text-align: center; margin: 0px;font-size: 25px;"> Once the full payment is completed, your translated document(s) will be returned to you via email or Dropbox if preferred.
+            </p>
+
+           </div>
+
+           <button class = "actionButton2" onclick = "window.location.href = '#contact';">
+            Let's get set up for Translation!
+          </button>
+           
+         
+        </div>
+      </div>
+       </div>
+       <div id="englishinterpretationservices" class = "englishinterpretationservice"> 
+          <div class ="servicetitles"> 
+           <h2 style = "text-align: center; font-size: 60px; margin-bottom: 10px; margin-top: 35px;"> Interpretation </h2>
+           
+         </div>
+         <div style = "height: 3px; width: 100px; background-color: rgb(128,0,0); margin: 0px auto; padding: 0px;"> </div>
+         <div class="holder">
+          <div class="servicematerial">
+           <div class="materialbox">
+             <p style = "text-align: center; font-size: 40px; margin: 20px;">
+                       Step 1
+             </p>
+              <p style = "text-align: center; margin: 0px;font-size: 25px;"> Start the process by completing the form “request for service” with all the required information.
+            </p>
+
+           </div>
+            <div class="materialbox">
+              <p style = "text-align: center; font-size: 40px; margin: 20px;">
+                      Step 2
+             </p>
+ <p style = "text-align: center; margin: 0px;font-size: 25px;"> We will review our calendar and confirm the accommodation of your request or return our earliest available date.
+            </p>
+           </div>
+
+            <div class="materialbox">
+              <p style = "text-align: center; font-size: 40px; margin: 20px;">
+                     Step 3
+             </p>
+ <p style = "text-align: center; margin: 0px;font-size: 25px;"> Interpretation services have a flat rate of $34.00
+for the first hour and $26.00 per every consecutive
+hour.            </p>
+           </div>
+            <div class="materialbox">
+              <p style = "text-align: center; font-size: 40px; margin: 20px;">
+                     Step 4
+             </p>
+ <p style = "text-align: center; margin: 0px;font-size: 25px;"> The interpreter will attend at the set date, time
+and place to deliver the interpretation services
+            </p>
+           </div>
+         
+        
+
+        <button class = "actionButton1" onclick = "window.location.href = '#contact';">
+          Let's get set up for Interpretation!
+        </button>
+         
+      </div>
+    </div>
+
+       </div>
+
+    </div>  
+    
+    
+    <div id="spanishservices" class = "spanishservices">
+        <div id="englishtranslationservice" class = "englishtranslationservice">    
+            <div class ="servicetitles"> 
+             <h2 style = "text-align: center; font-size: 60px; margin-bottom: 10px; margin-top: 35px;"> Traducciones </h2>
+             
+            </div>
+            <div style = "height: 3px; width: 100px; background-color: rgb(50, 163, 50); margin: 0px auto; padding: 0px;"> </div>
+            
+   
+            <div class="holder">
+            <div class="servicematerial">
+              <div class="materialbox">
+                   <p style = "text-align: center; font-size: 40px; margin: 20px;">
+                         Paso 1
+                </p>
+                 <p style = "text-align: center; margin: 0px;font-size: 25px;">Complete el formulario “requisición 
+                    de servicio" y baje su(s) documento(s) en la dropbox
+               </p>
+   
+              </div>
+              <div class="materialbox">
+                <p style = "text-align: center; font-size: 40px; margin: 20px;">
+                         Paso 2
+                </p>
+                  <p style = "text-align: center; margin: 0px;font-size: 25px;"> Nosotros revisaremos su(s) documento(s) y haremos el conteo de palabras. 
+               </p>
+   
+              </div>
+               <div class="materialbox">
+                    <p style = "text-align: center; font-size: 40px; margin: 20px;">
+                         Paso 3
+                </p>
+                  <p style = "text-align: center; margin: 0px;font-size: 25px;"> Una vez que el presupuesto esté
+                      aprovado y el 40% del costo
+sea recibido, nosotros comenzaremos
+                        el trabajo de traducción
+
+               </p>
+   
+              </div>
+               <div class="materialbox">
+                    <p style = "text-align: center; font-size: 40px; margin: 20px;">
+                         Paso 4
+                </p>
+                  <p style = "text-align: center; margin: 0px;font-size: 25px;"> Una vez traducido el documento
+                      y el pago total sea recibido, 
+                                   el documento se incluirá 
+                   en la dropbox
+                   
+               </p>
+   
+              </div>
+   
+              <button class = "actionButton2" onclick = "window.location.href = '#contact';">
+                  Comenzemos a hacer la traducción!
+             </button>
+              
+            
+           </div>
+          </div>
+          </div>
+          <div id="englishinterpretationservices" class = "englishinterpretationservice"> 
+             <div class ="servicetitles"> 
+              <h2 style = "text-align: center; font-size: 60px; margin-bottom: 10px; margin-top: 35px;"> Interpretaciones </h2>
+              
+            </div>
+            <div style = "height: 3px; width: 100px; background-color: rgb(128,0,0); margin: 0px auto; padding: 0px;"> </div>
+            <div class="holder">
+             <div class="servicematerial">
+              <div class="materialbox">
+                <p style = "text-align: center; font-size: 40px; margin: 20px;">
+                          Paso 1
+                </p>
+                 <p style = "text-align: center; margin: 0px;font-size: 25px;"> Una vez que complete el formulario “requisición de servicio” (adjunto más abajo) Ud. iniciará servicios con Express It y estará en contacto con nosotros.
+               
+               </p>
+   
+              </div>
+               <div class="materialbox">
+                 <p style = "text-align: center; font-size: 40px; margin: 20px;">
+                         Paso 2
+                </p>
+    <p style = "text-align: center; margin: 0px;font-size: 25px;"> 
+      Revisaremos su requisición y le contactaremos a fin de obtener su documento(s).
+        
+               </p>
+              </div>
+   
+               <div class="materialbox">
+                 <p style = "text-align: center; font-size: 40px; margin: 20px;">
+                        Paso 3
+                </p>
+    <p style = "text-align: center; margin: 0px;font-size: 25px;">Una vez que hayamos revisado y aprobado el servicio para el(los) documento(s), requeriremos un 40% del costo a fin de comenzar la traducción.
+                </p>
+              </div>
+               <div class="materialbox">
+                 <p style = "text-align: center; font-size: 40px; margin: 20px;">
+                        Paso 4
+                </p>
+    <p style = "text-align: center; margin: 0px;font-size: 25px;"> Una vez que el pago completo sea recibido, el(los) documento(s) traducidos será(n) entregados via correo electrónico o Dropbox.
+        
+               </p>
+              </div>
+            
+          
+   
+           <button class = "actionButton1" onclick = "window.location.href = '#contact';" >
+              Comenzemos a hacer la interpretación!
+           </button>
+            
+          </div>
+        </div>
+          </div>
+    </div>  
+    
+  </div>
+      
+      
+   
+      
+      
+      
+      
+      
+      
+      
+      
+    </div>
+      
+  </div>
+  <div id="who" class = "who">
+    <div id="englishwho" class = "englishwho">
+            <h2 style = "text-align: center; font-size: 60px; margin-top: 30px; margin-bottom:0px;"> Who is behind Express It? </h2>
+
+            <div style = "height: 3px; width: 100px; background-color: rgb(77,195,209); margin: 10px auto; padding: 0px;"> </div>
+
+            <div class="whobody">
+              <div style = "width: 80%; margin: auto;">
+              <div style = "display: flex; flex-direction: column; align-items: center; justify-content: center;"> 
+                  <img src= "NoPath.png" style = "width:300px; height:300px; margin: 0px; border-style:double; border-width: 6px; border-radius: 100%;">
+                  <p style = "text-align: center; font-size: 40px; font-weight: bold; margin-top: 20px; margin-bottom: 0px;"> Mónica González Prelle </p>
+              </div>
+              <div style = "height: 3px; width: 100px; background-color:rgb(77,195,209); margin: 0px auto; padding: 0px;"> </div>
+              <div style = "display:flex; justify-content: center; padding: 10px;"> 
+                <p style = "text-align: center; font-size: 22px; font-weight: bold;"> With decades of experience in the trade, Monica Gonzalez has delivered professional
+                  services in translations as well as interpretations. Born in Santiago, Chile, Monica
+                  focussed on her interpretation and translation career after completing secondary
+                  school. Her passion for languages led her to hold positions in international
+                  organizations such as the Holiday Inn Crowne Plaza and the Economic Commission for
+                  Latin America and the Caribbean both located in Santiago. These interests led her to
+                  Canada, where her career further developed in the legal field. Monica has worked as a
+                  legal assistant and within her duties she has served as interpreter and translator.
+                 </p>
+              </div>
+              </div>
+            </div>
+            <button class = "actionButton3" onclick = "window.location.href = '#contact';" >
+                Work with me!
+              </button>
+     
+
+    </div>
+      <div id="spanishwho" class = "spanishwho">
+          <h2 style = "text-align: center; font-size: 60px; margin-top: 30px; margin-bottom:0px;"> Quien está detrás de Exprésalo? </h2>
+
+          <div style = "height: 3px; width: 100px; background-color: rgb(77,195,209); margin: 10px auto; padding: 0px;"> </div>
+
+          <div class="whobody">
+            <div style = "width: 80%; margin: auto;">
+            <div style = "display: flex; flex-direction: column; align-items: center; justify-content: center;"> 
+                <img src= "NoPath.png" style = "width:300px; height:300px; margin: 0px; border-style:double; border-width: 6px; border-radius: 100%;">
+                <p style = "text-align: center; font-size: 40px; font-weight: bold; margin-top: 20px; margin-bottom: 0px;"> Mónica González Prelle  </p>
+            </div>
+            <div style = "height: 3px; width: 100px; background-color:rgb(77,195,209); margin: 0px auto; padding: 0px;"> </div>
+            <div style = "display:flex; justify-content: center; padding: 10px;"> 
+              <p style = "text-align: center; font-size: 22px; font-weight: bold;">Con décadas de experiencia en el rubro Mónica González Prelle, ha entregado servicio profesional tanto en traducción como interpretación.  Nacida en Santiago, Chile, Mónica se avocó a la carrera de intérprete inglés/español al término de sus estudios secundarios.  La pasión por los idiomas la llevó a trabajos e industrias internacionales, tales como el Hotel Holiday Inn Crowne Plaza y la Comisión Económica para Latino América y el Caribe ambos ubicados en Santiago, Chile.  Su interés necesito romper las fronteras dándole paso a obtener la residencia permanente en Canadá, donde su carrera se desarrollo en el ámbito legal, Mónica ha trabajado como asistente legal y paralelamente dentro de sus funciones, ha servido de intérprete y traductora.
+               </p>
+            </div>
+            </div>
+          </div>
+          <button class = "actionButton3" onclick = "window.location.href = '#contact';" >
+              Trabaja conmigo!
+            </button>
+      </div> 
+  </div>
+
+  <div id="reference" class = "reference">
+    <div id="englishreference" class = "englishreference">
+      <h1 style = "text-align: center; font-size: 60px;font-family: 'PT Serif', serif; margin-bottom: 10px;"> What our customers say about us! </h2>
+        <div style = "height: 3px; width: 100px; background-color: rgb(50, 163, 50); margin: 0px auto; padding: 0px;"> </div>
+         
+        
+      <div class = "referencecontainer">
+        <div>
+      <div class="referenceitem" style = "font-size: 30px; padding: 5%;">
+        "I just wanted to send you a note of my appreciation for all of the work that you did translating from Spanish to English the documents that I was required to submit as part of my wife's recent sponsorship application.
+        As you know sponsoring a person is complicated and requires that the documents be accurate and precise and your work was done in a timely manner and was perfect in every case.
+        We thank you for your efforts and if this note serves to help you as a client testimonial."" 
+      </div>
+      <h2 style = "text-align: center; font-size: 30px;"> Eric and Ivelisse </h2>
+    </div>
+  
+    
+    </div>
+    <button class = "actionButton4" onclick = "window.location.href = '#contact';">
+        Join these clients as apart of our team!
+      </button>
+    </div>
+    <div id="spanishreference" class = "spanishreference">
+        <h1 style = "text-align: center; font-size: 60px;font-family: 'PT Serif', serif; margin-bottom: 10px;"> Que dicen nuestros clientes de nosotros! </h2>
+          <div style = "height: 3px; width: 100px; background-color: rgb(50, 163, 50); margin: 0px auto; padding: 0px;"> </div>
+           
+          
+        <div class = "referencecontainer">
+          <div>
+        <div class="referenceitem">
+            <p> "Recién llegado a Canadá tuve que acceder servicios de inmigración a fin de obtener mi residencia permanente en este país. </br> </br>
+              El proceso de completar los formularios y apoyar mi solicitud de residencia en Canadá incluyó la traducción del idioma inglés al castellano. Estos servicios me fueron otorgados por Mónica González Prelle. Ella me asistió y guió explicándome cada una de las preguntas formuladas en inglés y su interpretación al castellano. Gracias a su ayuda, yo comprendí y entregué la información en forma precisa y correcta. </br> </br>
+              Asimismo, Mónica, a traves de su compañia, Express it, me asistió con las traducciones de documentos básicos de identificación, como con documentos relevantes a mi tipo de solicitud de inmigración. Mis formularios y documents debidamente traducidos fueron aceptados por las autoridades de inmigración. En la actualidad, vivo y trabajo en Canadá y he continuado usando los servicios de traducción de Mónica. </br> </br>
+              No dudo en referir sus servicios a mi familia y conocidos, y de hecho asi lo he hecho obteniendo los resultados esperados. </br> </br>
+              Mónica me ha provisto sus servicios en forma profesional y eficaz." </p>
+        </div>
+        <h2 style = "text-align: center; font-size: 30px;"> Ivan Alcazar Castillo </h2>
+      </div>
+      
+   
+      </div>
+      <button class = "actionButton4" onclick = "window.location.href = '#contact';">
+          Agrégese a nuestra cartera de clientes!
+        </button>
+    </div> 
+</div>
+
+  <div id="segue" class = "segue">
+    <div id="englishsegue" class = "englishsegue">
+      <p style = "font-size: 50px; font-weight: bold; color: white; text-shadow: 2px 2px 8px black;">Decades of experiences designated to serve you!</p>
+    </div>
+      <div id="spanishsegue" class = "spanishsegue">
+          <p style = "font-size: 50px; font-weight: bold; color: white; text-shadow: 2px 2px 8px black;">Décadas de experiencia diseñadas para servirle</p>
+      </div> 
+  </div>
+
+
+
+  <div id="contact" class = "contact">
+      <div id="englishcontact" class = "englishcontact">
+        <h1 style = "font-size: 60px; color: white; margin-bottom: 10px;"> Contact us, let's get to work!</h1>
+        <div style = "height: 3px; width: 100px; background-color:white; margin: 0px auto; padding: 0px;"> </div>
+  
+        <form action = "english_action_page.php" method = "post">
+          <label for = "fname" style = "margin-top: 0px; color: white; font-family: 'PT Serif', serif; "> First Name </label>
+              <input type="text" id="fname" name="firstname" placeholder="Your name..">
+              <label for = "lname" style = "color: white; font-family: 'PT Serif', serif; ">  Last Name </label>
+              <input type="text" id="lname" name="lastname" placeholder="Your name..">
+              <label for = "lname" style = "color: white; font-family: 'PT Serif', serif; ">  Email Adress</label>
+              <input type="text" id="ename" name="email" placeholder="Your email..">
+              <label for = "type" style = "color: white; font-family: 'PT Serif', serif; ">  Service </label>
+          <select id="type" name = "type">  
+              <option value = "choose" > Interpretation </option>
+               <option value = "web development"> Translation</option>
+              
+          </select>    
+          <div style = "margin: 10px 30%; ">
+          <label for = "date" style = "color: white; font-family: 'PT Serif', serif; ">  I need this done by:</label>
+      
+            <input type="date" id = "date" name="due date"/> <br/>
+            
+     
+       </div>
+          
+               <label for="subject" style = "color: white; font-family: 'PT Serif', serif; "> Additional Info </label>
+         <textarea id="subject" name="extra" placeholder="if there's any extra information about your business or anything youd like us to know before our first conversation, feel free to include it here." style="height:150px"></textarea>
+          
+           <input type="submit" value="Send Form">
+          
+         
+      
+        </form>
+    
+      </div>
+      <div id="spanishcontact" class = "spanishcontact">
+          <h1 style = "font-size: 60px; color: white; margin-bottom: 10px;"> Contáctenos!</h1>
+          <div style = "height: 3px; width: 100px; background-color:white; margin: 0px auto; padding: 0px;"> </div>
+    
+          <form action = "action_page.php">
+            <label for = "fname" style = "margin-top: 0px; color: white; font-family: 'PT Serif', serif; "> Nombre(s) </label>
+                <input type="text" id="fname" name="fname" placeholder="Your name..">
+                <label for = "lname" style = "color: white; font-family: 'PT Serif', serif; ">  Apellido(s)</label>
+                <input type="text" id="lname" name="bla" placeholder="Your name..">
+                <label for = "ename" style = "color: white; font-family: 'PT Serif', serif; ">  Dirección Electrónica</label>
+                <input type="text" id="ename" name="fsa" placeholder="Your email..">
+                <label for = "type" style = "color: white; font-family: 'PT Serif', serif; ">  Servicio </label>
+            <select id="type" name = "type">  
+                <option value = "choose" > Interpretation </option>
+                 <option value = "web development"> Translation</option>
+                
+            </select>    
+            <div style = "margin: 10px 30%; ">
+            <label for = "date" style = "color: white; font-family: 'PT Serif', serif; "> Fecha preferida para entrega del servicio: </label>
+        
+              <input type="date" id = "date" name="due date"/> <br/>
+              
+       
+         </div>
+            
+                 <label for="subject" style = "color: white; font-family: 'PT Serif', serif; "> Additional Info </label>
+           <textarea id="subject" name="subject" placeholder="if there's any extra information about your business or anything youd like us to know before our first conversation, feel free to include it here." style="height:150px"></textarea>
+            
+             <input type="submit" value="Submit">
+            
+           
+        
+          </form>
+
+          
+      </div> 
+  </div>
+
+
+<!-- End your code here -->
+</body>
+</html>
+

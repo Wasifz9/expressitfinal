@@ -1,0 +1,253 @@
+body{
+    display: flex;
+    flex-direction: column;
+    padding:  0px;
+    margin: 0px;
+    width: 200vw;
+  }
+  a{
+    text-decoration: none;
+    color:  red;
+    margin:  0 20px;
+  }
+  li{
+   
+  }
+  
+  
+  .navbar{
+    position:  fixed;
+    background-color: WHITE;
+    opacity: 0.8;
+    height:  5%;
+    width:  100%;
+    z-index: 1;
+  }
+  
+  .home{
+    display:  flex;
+    height: 100vh;
+    flex-direction: row;
+  }
+  .englishhome{
+    width: 50%;
+  
+  }
+  label{
+      color: white;
+  }
+  
+  .homeback{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 60vh;
+    width:  100%;
+    background-color:	rgb(128,0,0);
+    opacity: .8;
+    top:  0;
+    flex-direction:  column;
+  
+  }
+  .webtitle{
+    font: 60px Arial, sans-serif;
+    color: white;
+    
+  }
+  
+  .websubtitle{
+    color:  white;
+    font: 20px Arial, sans-serif;
+    margin-top: -40px;
+  }
+  
+  .translateaction{
+    bottom:  0;
+    left:  0;
+    width:  100%;
+    height:  40vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+   
+  }
+  
+  ul{
+    font-size: 30px
+  }
+  .translationtext{
+    border: 1px solid black;  
+    background-color:  white;
+    padding: 5%;
+    width: 60%;
+    box-shadow: 1px 1px 20px #000000;
+    
+  }
+  
+  .interpretationaction{
+    bottom:  0;
+    right: 0;
+    width:  50%;
+    height:  40vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    flex-direction:  column;
+  }
+  
+  .spanishhome{
+      width: 50%;
+      background-color: orange;
+  }
+  
+  button{
+    height: 50px;
+    margin:  10px;
+  }
+  
+  
+  .services{
+    display:flex;
+     height: 200vh;
+    flex-direction: row;
+  }
+  
+  
+  .englishservices{
+    width: 50%;
+    background-image: linear-gradient(white 10%, aqua 30%, white);
+    display: flex;
+    flex-direction: column;
+   
+  }
+  
+  .translationinfo{
+    width: 100vw;
+    height:  100vh;
+    display: flex;
+    flex-direction: row;
+    position: absolute;
+  }
+  
+  .interpretationinfo{
+      width: 100vw;
+    height:  100vh;
+    display: flex;
+    flex-direction: row;
+    position: absolute;
+  }
+  
+  .infotitle{
+      width:  50%;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      height: 100%; 
+  
+  }
+  
+  .infotext{
+    width:  50%;
+    display: flex;
+    justify-content: center;
+      align-items: center;
+    
+  }
+  .spanishservices{
+      width: 50%;
+      background-color: #4B0082;
+  }
+  
+  
+  .who{
+    display:  flex;
+    flex-direction: row;
+    height:  100vh;
+  }
+  .englishwho{
+    width: 50%;
+    background-color: #40E0D0;
+  }
+  
+  .spanishwho{
+      width: 50%;
+      background-color: #D8BFD8;
+  }
+  
+  
+  
+  .segue{
+    display:  flex;
+    flex-direction: row;
+    height:  50vh;
+  
+  }
+  .englishsegue{
+    display: flex;
+    width: 50%;
+    background: url(https://images.fineartamerica.com/images/artworkimages/mediumlarge/1/new-york-city-panorama-david-strohmer.jpg);
+    background-position: center;
+    background-size:  cover;
+    background-repeat: no-repeat;  
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+  }
+  
+  .spanishsegue{
+      width: 50%;
+      background-color: #FFC0CB;
+  }
+  
+  
+  .contact{
+    display: flex;
+    flex-direction: row;
+    height: 105vh;
+  }
+  .englishcontact{
+    width: 50%;
+    background-color: rgb(120,0,0,.8);
+    display: flex;
+    justify-content: content;
+    align-items: center;
+    flex-direction:  column;
+    padding-top: 10vh;
+    
+  }
+  input[type=text], select, textarea, date {
+    width: 100%;
+    padding: 12px;
+    border: 1px solid #ccc;
+    border-radius: 16px;
+    box-sizing: border-box;
+    margin-top: 6px;
+    margin-bottom: 16px;
+    resize: vertical;
+    font-family: 'Baloo Bhai', cursive;
+  }
+  input[type=submit]{
+  margin: 0 auto 0 auto;
+  padding: 20px 50px;
+  font-family: 'Baloo Bhai', cursive;
+  border-radius:  10px;
+   border: 1px solid black;
+    cursor:  pointer;
+    background:  black;
+    color:  white;
+    float:  right;
+  }
+  input[type=submit]:hover{
+    background:  white;
+    color:  black;
+    padding:  20px 100px;
+    transition-duration: 0.6s;
+  }
+  
+  .spanishcontact{
+      width: 50%;
+      background-color: #008080;
+  }
+
