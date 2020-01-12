@@ -14,13 +14,12 @@ app.use(express.static("static"));
 
 
 app.post("/mail", async (req, res) => {
-
   const { firstname, type, lastname, email } = req.body;
   if (!firstname || !lastname || !email || !type || !req.body["due date"]) {
     return res.send("Please fill out the entire form.");
   }
   let mailOptions = {
-    from: "no.reply.pitchdev@gmail.com",
+    from: "wasifz9@gmail.com",
     to: "kaiferrall@gmail.com",
     subject: "Dasd",
     html: `<p>Email from: ${req.body.firstname[0]} ${req.body.lastname} (${req.body.email})</p><p>Requesting ${req.body.type} by ${req.body["due date"]}</p><p>${req.body.extra}</p>` 
@@ -28,8 +27,8 @@ app.post("/mail", async (req, res) => {
   const transporter = mailer.createTransport({
     service: "gmail",
     auth: {
-      user: "no.reply.pitchdev@gmail.com",
-      pass: "PitchdevEmail"
+      user: "wasifz9@gmail.com",
+      pass: "zulkernine"
     }
   });
   await transporter.sendMail(mailOptions);
