@@ -20,8 +20,8 @@ app.post("/mail", async (req, res) => {
   }
   let mailOptions = {
     from: "wasifz9@gmail.com",
-    to: "kaiferrall@gmail.com",
-    subject: "Dasd",
+    to: "wasifz9@gmail.com",
+    subject: "Expressit contact email",
     html: `<p>Email from: ${req.body.firstname[0]} ${req.body.lastname} (${req.body.email})</p><p>Requesting ${req.body.type} by ${req.body["due date"]}</p><p>${req.body.extra}</p>` 
   };
   const transporter = mailer.createTransport({
