@@ -19,16 +19,16 @@ app.post("/mail", async (req, res) => {
     return res.send("Please fill out the entire form.");
   }
   let mailOptions = {
-    from: "wasifz9@gmail.com",
-    to: "wasifz9@gmail.com",
+    from: "expressit@expresalo.ca",
+    to: "expressit@expresalo.ca",
     subject: "Expressit contact email",
     html: `<p>Email from: ${req.body.firstname[0]} ${req.body.lastname} (${req.body.email})</p><p>Requesting ${req.body.type} by ${req.body["due date"]}</p><p>${req.body.extra}</p>` 
   };
   const transporter = mailer.createTransport({
     service: "gmail",
     auth: {
-      user: "wasifz9@gmail.com",
-      pass: "zulkernine"
+      user: "expressit@expresalo.ca",
+      pass: "Expressit2020"
     }
   });
   await transporter.sendMail(mailOptions);
