@@ -22,6 +22,8 @@
 
     <button id = "left-button" class = "languagebutton" style = "float:right; position: fixed; top:0; margin: 0px;" onclick = "window.location.href = '#englishhome';"> English </button>
     <button id = "right-button" class = "languagebutton1" style = "position: fixed; right: 0; top:0; margin: 0px; border-radius: 20px 0 0 20px;" onclick = "window.location.href = '#spanishhome';"> Español </button>
+    <button id  = "wordoftheday" onclick="showenglish();" class = "wordoftheday" style = "float:right; position: fixed; top:43px; margin: 0px;">Word of the Day!</button>
+    <button id = "spanishwordoftheday" onclick = "showspanish();" class = "spanishwordoftheday" style = "position: fixed; right: 0; top:43px; margin: 0px; border-radius: 20px 0 0 20px;">La Palabra Del Dia!</button>
     <div id="home" class = "home"> 
       <div id="englishhome" class = "englishhome">
        <div id="homeback" class = "homeback">
@@ -56,7 +58,7 @@
 <div style = "width: 70%">
            <p style = "text-align: center; margin: 0px;font-size: 25px;"> Real time translation to 
                 aid your 
-               verbal communication
+               verbal communication.
             </p>
            </div>
               <button onclick = "window.location.href = '#contact';" class = "buttonaction"> Click Here for Interpretation! </button>
@@ -87,7 +89,7 @@
                 <div style = "width: 70%">
                   <p style = "text-align: center; margin: 0px;font-size: 25px;">                Al recibir su documento nosotros 			
                       Le proveeremos con una traducción		
-                                   válida, precisa y con un costo razonable  
+                                   válida, precisa y con un costo razonable.  
                     
                 </p>
                   </div>
@@ -207,7 +209,7 @@ hour.            </p>
                      Step 4
              </p>
  <p style = "text-align: center; margin: 0px;font-size: 25px;"> The interpreter will attend at the set date, time
-and place to deliver the interpretation services
+and place to deliver the interpretation services.
             </p>
            </div>
          
@@ -241,7 +243,7 @@ and place to deliver the interpretation services
                          Paso 1
                 </p>
                  <p style = "text-align: center; margin: 0px;font-size: 25px;">Complete el formulario “requisición 
-                    de servicio" y baje su(s) documento(s) en la dropbox
+                    de servicio" y baje su(s) documento(s) en la dropbox.
                </p>
    
               </div>
@@ -260,7 +262,7 @@ and place to deliver the interpretation services
                   <p style = "text-align: center; margin: 0px;font-size: 25px;"> Una vez que el presupuesto esté
                       aprovado y el 40% del costo
 sea recibido, nosotros comenzaremos
-                        el trabajo de traducción
+                        el trabajo de traducción.
 
                </p>
    
@@ -272,7 +274,7 @@ sea recibido, nosotros comenzaremos
                   <p style = "text-align: center; margin: 0px;font-size: 25px;"> Una vez traducido el documento
                       y el pago total sea recibido, 
                                    el documento se incluirá 
-                   en la dropbox
+                   en la dropbox.
                    
                </p>
    
@@ -400,7 +402,7 @@ sea recibido, nosotros comenzaremos
             </div>
             <div style = "height: 3px; width: 100px; background-color:rgb(77,195,209); margin: 0px auto; padding: 0px;"> </div>
             <div style = "display:flex; justify-content: center; padding: 10px;"> 
-              <p style = "text-align: center; font-size: 22px; font-weight: bold;">Con décadas de experiencia en el rubro Mónica González Prelle, ha entregado servicio profesional tanto en traducción como interpretación.  Nacida en Santiago, Chile, Mónica se avocó a la carrera de intérprete inglés/español al término de sus estudios secundarios.  La pasión por los idiomas la llevó a trabajos e industrias internacionales, tales como el Hotel Holiday Inn Crowne Plaza y la Comisión Económica para Latino América y el Caribe ambos ubicados en Santiago, Chile.  Su interés necesito romper las fronteras dándole paso a obtener la residencia permanente en Canadá, donde su carrera se desarrollo en el ámbito legal, Mónica ha trabajado como asistente legal y paralelamente dentro de sus funciones, ha servido de intérprete y traductora.
+              <p style = "text-align: center; font-size: 22px; font-weight: bold;">Con décadas de experiencia en el rubro Mónica González Prelle, ha entregado servicio profesional tanto en traducción como interpretación.  Nacida en Santiago, Chile, Mónica se avocó a la carrera de intérprete inglés/español al término de sus estudios secundarios.  La pasión por los idiomas la llevó a trabajos e industrias internacionales, tales como el Hotel Holiday Inn Crowne Plaza y la Comisión Económica para Latinoamérica y el Caribe ambos ubicados en Santiago, Chile.  Su interés necesito romper las fronteras dándole paso a obtener la residencia permanente en Canadá, donde su carrera se desarrollo en el ámbito legal, Mónica ha trabajado como asistente legal y paralelamente dentro de sus funciones, ha servido de intérprete y traductora.
                </p>
             </div>
             </div>
@@ -422,7 +424,7 @@ sea recibido, nosotros comenzaremos
       <div class="referenceitem" style = "font-size: 30px; padding: 5%;">
         "I just wanted to send you a note of my appreciation for all of the work that you did translating from Spanish to English the documents that I was required to submit as part of my wife's recent sponsorship application.
         As you know sponsoring a person is complicated and requires that the documents be accurate and precise and your work was done in a timely manner and was perfect in every case.
-        We thank you for your efforts and if this note serves to help you as a client testimonial."" 
+        We thank you for your efforts and if this note serves to help you as a client testimonial."
       </div>
       <h2 style = "text-align: center; font-size: 30px;"> Eric and Ivelisse </h2>
     </div>
@@ -545,6 +547,7 @@ sea recibido, nosotros comenzaremos
 
 
 <!-- End your code here -->
+<script src="express.js"></script>
 </body>
 </html>
 
