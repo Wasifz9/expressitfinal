@@ -43,8 +43,9 @@ body{
       text-shadow: none;
       cursor: pointer;
       background-color: rgb(50, 163, 50);
-
   }
+
+  
 
   .languagebutton1{
     height: 40px;
@@ -66,6 +67,47 @@ body{
       cursor: pointer;
       background-color: rgb(50, 163, 50);
 
+  }
+
+  .wordoftheday{
+    height: 40px;
+    width: 250px;
+    border-radius: 0 20px 20px 0;
+    color: white;
+    background-color: rgb(120, 0, 0);
+    border: none;
+    font-size: 20px;
+    box-shadow: 1px 1px 10px #000000;
+  }
+  .wordoftheday:hover{
+    -webkit-transform: scale(1.2);
+    transform: scale(1.2);
+    background-color: white;
+    transition-duration: .3s;
+    color: rgb(120, 0, 0);
+    cursor: pointer;
+  }
+
+
+
+  .spanishwordoftheday{
+    height: 40px;
+    width: 250px;
+    border-radius: 0 20px 20px 0;
+    color: white;
+    background-color: rgb(120, 0, 0);
+    border: none;
+    font-size: 20px;
+    box-shadow: 1px 1px 10px #000000;
+  }
+
+  .spanishwordoftheday:hover{
+    -webkit-transform: scale(1.2);
+    transform: scale(1.2);
+    background-color: white;
+    transition-duration: .3s;
+    color: rgb(120, 0, 0);
+    cursor: pointer;
   }
   
   .navbar{
